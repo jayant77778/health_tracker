@@ -1,39 +1,28 @@
+# HealthTracker Dashboard
 
-# 🏃‍♂️ HealthTracker - Personalized Health & Fitness Dashboard
-
-**HealthTracker** is an interactive and intelligent health monitoring web application built using Streamlit. It helps individuals track their daily health metrics — including physical activity, hydration, and sleep — and provides personalized recommendations for diet and exercise based on user input.
-
----
-
-## 🚀 Key Features
-
-- 🔍 **User Profile Analysis**
-  - Enter age, weight, height, and gender
-  - Instant calculation of BMI and BMR
-  - Smart classification (Underweight, Normal, Overweight)
-
-- 📊 **Health Tracking Dashboard**
-  - Track daily steps, water intake (in liters), and sleep hours
-  - Visual trends for quick comparison with ideal values
-  - Personalized feedback and improvement tips
-
-- 🧘 **Wellness Recommendations**
-  - Customized yoga and exercise routines
-  - Diet suggestions tailored to BMI category
-
-- 🎨 **Modern UI**
-  - Clean, responsive layout using Streamlit and custom CSS
-  - Easy-to-use interface with real-time updates
+A Streamlit-based health and fitness dashboard to track and visualize your health data with interactive charts and insights.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Live Demo
 
-- **Frontend/UI**: Streamlit
-- **Data Handling**: Pandas
-- **Visualization**: Matplotlib
-- **Language**: Python 3.x
+Try the app live here: [HealthTracker Dashboard](https://healthtrackerdashboard.streamlit.app/)
 
 ---
 
+## Features
 
+- Upload and analyze health data files (CSV, Excel)
+- Interactive visualizations with Matplotlib and Seaborn
+- User-friendly interface to monitor health trends over time
+- Download processed reports
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/jayant77778/health_tracker.git
+cd health_tracker
